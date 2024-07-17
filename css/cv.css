@@ -1,0 +1,310 @@
+body { 
+    padding-top: 40px;
+ }
+ 
+.aboutMe{
+    background-color: rgb(179, 137, 137);
+    height: 500px;
+    border: 5px solid rgb(199, 206, 199);
+    
+}
+.name{
+    color: rgb(37, 19, 19);
+    margin-top: 50px;
+    font-family: 'Courier New', monospace;
+}
+.description{
+    margin: 50px;
+    color: rgb(78, 11, 11);
+}
+.job{
+    font-family: 'Courier New', monospace;
+    color: rgb(10, 1, 1);
+}
+.para{
+    font-size: smaller;
+    color: rgb(43, 2, 2);
+}
+.image{
+    width: 50%;
+   
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid rgb(179, 137, 137);
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.image:hover {
+    width: 70%;
+   
+    transform: rotate(360deg);
+  }
+
+
+.pImage{
+    background-image: url('../images/mainRowImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* background-color: rgb(199, 206, 199);  */
+   
+
+}
+.aboutjob{
+   display: flex; 
+}
+.aboutJob01{
+    width: 50%;
+    margin: auto;
+    
+}
+.dis{
+    color: rgb(78, 11, 11);
+
+}
+.mainRow{
+    
+    background-image: url('../images/mainRowImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.aboutJob02{
+    height: 80%;
+
+    }
+.para02{
+    color: rgb(112, 27, 27);
+}
+ 
+.about{
+    /* color: rgb(37, 19, 19); */
+    margin-top: 40px;
+    color: rgb(119, 17, 17);
+    
+
+}
+.para02{
+    margin: 4%;
+}
+.prf02{
+    width: 10px;
+  height: 20px;
+  background-color: rgb(201, 125, 125);
+  animation-name: prf;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+.mainskill:hover .prf02{
+    animation: prf 6s infinite;
+}
+@keyframes prf {
+    from {width: 10px;}
+    to {width: 700px;}
+   
+} 
+
+
+.oop02{
+    width: 10px;
+  height: 20px;
+  background-color: rgb(201, 125, 125);
+  animation-name: oop;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+
+.mainskill:hover .oop02{
+    animation: oop 6s infinite;
+}
+
+@keyframes oop {
+    from {width: 10px;}
+    to {width: 500px;}
+   
+} 
+.css02{
+    width: 10px;
+  height: 20px;
+  background-color: rgb(201, 125, 125);
+  animation-name: css;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+.mainskill:hover .css02{
+    animation: css 6s infinite;
+}
+@keyframes css {
+    from {width: 10px;}
+    to {width: 650px;}
+   
+} 
+.script02{
+    width: 10px;
+  height: 20px;
+  background-color: rgb(201, 125, 125);
+  animation-name: script;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+.mainskill:hover .script02{
+    animation: script 6s infinite;
+}
+@keyframes script {
+    from {width: 10px;}
+    to {width: 800px;}
+   
+} 
+.skill01{
+    display: flex;
+}
+.prf01{
+    margin: 3%;
+    color: rgb(117, 112, 112);
+}
+.prf02{
+    margin: 3%;
+}
+.prf03{
+    margin: 3%;
+    color: rgb(117, 112, 112);
+}
+
+.skill02{
+    display: flex;
+    
+}
+.oop01{
+    margin: 3%;
+    color: rgb(117, 112, 112);
+}
+.oop02{
+    margin: 3%;
+}
+.oop03{
+    margin: 3%;
+    color: rgb(117, 112, 112);
+}
+
+.skill03{
+    display: flex;
+}
+.css01{
+    margin: 2%;
+    color: rgb(117, 112, 112);
+}
+.css02{
+    margin: 2%;
+}
+.css03{
+    margin: 2%;
+    color: rgb(117, 112, 112);
+}
+
+.skill04{
+    display: flex;
+}
+.script01{
+    margin: 2%;
+    color: rgb(117, 112, 112);
+}
+.script02{
+    margin: 2%;
+}
+.script03{
+    margin: 2%;
+    color: rgb(117, 112, 112);
+}
+.ski{
+    color: rgb(247, 246, 246);
+    margin-top: 10%;
+}
+.mainskill{
+    background-color:rgb(27, 2, 2) ;
+    
+}
+.mainEdu{
+    background-color: rgb(179, 137, 137);
+    border: 7px solid rgb(95, 6, 6);
+}
+.eduName{
+    margin: 30%;
+    color: rgb(88, 4, 4);
+    font-family: 'Courier New', monospace;
+    
+    
+}
+.eduDetails{
+    margin: 20%;
+    
+    
+}
+.edu{
+    color: rgb(136, 21, 21);
+    
+}
+.contact01{
+    margin: 5%;
+    margin-top: 5% !important;
+}
+.tbl01{
+    margin: 10%;
+    color: rgb(94, 12, 12);
+    
+}
+th,td{
+    padding: 10%;
+}
+.btn01{
+    float: right;
+    color: rgb(160, 153, 153);;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-color: rgb(131, 42, 42);
+
+}
+.btn01:hover{
+    background-color: rgb(26, 2, 2);
+}
+.conDetails {
+    color: rgb(95, 6, 6);
+}
+.mainContact{
+    background-color: rgb(163, 149, 149);
+}
+.footer{
+    padding: 5%;
+    font-size:1.5rem;
+    color: rgb(160, 153, 153);
+    background-color: rgb(14, 4, 4);
+}
+#contact:target{
+    padding-top: 40px;
+}
+
+#Knowledge:target{
+    padding-top: 80px;
+}
+
+#profile:target{
+    padding-top: 80px;
+}
+
+#aboutMe:target{
+    padding-top: 80px;
+}
+
+#education:target{
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 550px) {
+    .contact01 { padding-top: 20px; }
+}
+
+@media screen and (max-width: 890px) {
+    .tbl01 {margin-left: -5px;}
+}
+
+
